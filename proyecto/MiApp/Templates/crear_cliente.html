@@ -1,0 +1,12 @@
+<form action="" method="post"> {% csrf_token %}
+    <h3>Alta de cliente</h3>
+    <table>
+        {{formulario.as_table}}
+
+    </table>
+    <!-- comentario -->
+    <!--p><a href={% url 'crear producto'%}>agregar producto</a></p -->
+
+
+    <p><button type="submit" value="Enviar" >Enviar</button></p>
+</form>

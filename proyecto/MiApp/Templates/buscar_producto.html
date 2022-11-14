@@ -1,0 +1,31 @@
+<form action="" method="get">
+
+    <h3>Búsqueda</h3>
+
+    <input type="text" name="droga" id="droga">
+
+    <p><input type="submit" value="Buscar"> </p>
+    <a class="btn btn-primary" href={% url 'principal' %}>Pagina Principal</a>
+
+</form>
+
+{% if productos  %}
+
+    <ul>
+    {% for producto in productos   %}
+        
+        <li>
+            <p>Nombre Comercial: {{producto.nombre_comercial}} </p>
+            <p>Marca: {{producto.marca}} </p>
+            <p>Stock: {{producto.stock}} </p>
+        
+        
+        </li>
+    
+    {% endfor %}
+    <ul>
+
+
+{% else %}
+    <p>No hay datos.</p>
+{% endif %}

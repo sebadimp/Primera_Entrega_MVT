@@ -1,0 +1,11 @@
+<form action="" method="post"> {% csrf_token %}
+    <h3>Alta de Empleados</h3>
+    <table>
+        
+        {{formulario.as_table}}
+
+    </table>
+
+
+    <p><button type="submit" value="Enviar" >Enviar</button></p>
+</form>
