@@ -41,7 +41,9 @@ En cada uno de ellos, se puede guardar registros en la BD.
 
 Dentro del apartado de Productos, hay una etiqueta que referencia a la búsqueda de los mismos, la cual tiene como filtro el tipo de "droga".
 Ej.
+
 -Nombre comercial: Tafirol
+
 -Droga: Paracetamol.
 
 Un acerca de mi, el cual realiza herencia de plantillas, mostrando una breve descripción para demostrar su funcionamiento.
